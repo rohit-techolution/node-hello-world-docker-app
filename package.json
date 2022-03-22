@@ -1,6 +1,6 @@
 {
-  "name": "nodejs-hello-kubernetes",
-  "version": "1.0.0",
+  "name": "node-postgres-curd-app",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,13 @@
     "start": "node index"
   },
   "author": "Rohit Mahto",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
